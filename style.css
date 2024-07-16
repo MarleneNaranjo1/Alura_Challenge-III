@@ -1,0 +1,169 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+.top-rectangle1 {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: 100px; /* Ajusta la altura según tus necesidades */
+    background-color: #5300C8; /* Color de fondo azul (puedes cambiarlo por el que desees) */
+    position: absolute; /* Fija la posición del rectángulo */
+    top: 0; /* Lo posiciona en la parte superior */
+    left: 0; /* Lo posiciona en el borde izquierdo */
+    z-index: -1000; /* Asegura que esté encima de otros elementos si es necesario */
+}
+
+.imagen_logo{
+    display: flex;
+    padding: 20px;
+    padding-left: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*IMAGEN_MIS_PRODUCTOS*/
+.mis_productos{
+    width: 30%;
+    height: auto;
+    margin: 90px 0 0 190px;
+   
+}
+
+/*IMAGEN_AGREGAR_PRODUCTOS*/
+.agregar_productos{
+    width: 15%;
+    height: auto;
+    margin: 100px 0 0 350px;
+   
+}
+
+
+/*IMAGEN_PRODUCTOS*/
+#productos{
+    margin: 50px 530px 0 80px;
+
+}
+
+#productos img{
+    float: left;
+    width: 200px;
+    height: auto;
+ 
+}
+
+
+/*FORMULARIO*/
+#formulario {
+    align-self: center; /* Alinea el formulario a la derecha */
+
+}
+
+.form-producto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff; /* Blanco */
+    max-width: 500px; /* Limita el ancho del formulario */
+
+    margin: 0 100px 0 30px;
+
+}
+
+
+/*ESPACIOS_NOMBRE, PRECIO, IMAGEN */
+.form-producto input[type="text"] {
+    border: 2px solid #000080; /* Azul oscuro */
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    justify-content: flex-end;
+    box-sizing:border-box;
+    margin: 0 0 0 140px;
+}
+
+
+/*BOTONES*/
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 0 20 0 200px;
+    clear: both;
+    margin-top: 30px;
+    margin-left: 200px;
+
+
+}
+
+
+.btn-enviar, .btn-limpiar {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #000080; /* Azul oscuro */
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-enviar {
+    background-color: #000080; /* Azul oscuro */
+    color: #ffffff; /* Blanco */
+    width: 700px;
+}
+
+.btn-limpiar {
+    background-color: #ffffff; /* Blanco */
+    color: #000080; /* Azul oscuro */
+    width: 600px;
+}
+
+.btn-enviar:hover, .btn-limpiar:hover {
+    opacity: 0.8;
+}
+
+
+section.footer{
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center; /* Centra el contenido del footer */
+    color: white;
+    margin-top: 580px;
+    font-size: 15px;
+    line-height: 0.8; /* Ajusta este valor según necesites */
+}
+
+
+.top-rectangle2 {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: 260px; /* Ajusta la altura según tus necesidades */
+    background-color: #5300C8; /* Color de fondo azul (puedes cambiarlo por el que desees) */
+    margin-top: 1250px;
+    position: absolute; /* Fija la posición del rectángulo */
+    top: 0; /* Lo posiciona en la parte superior */
+    left: 0; /* Lo posiciona en el borde izquierdo */
+    z-index: -1000; /* Asegura que esté encima de otros elementos si es necesario */
+}
+
+.imagen_logo1{
+    display: flex;
+    padding: 100px;
+    padding-left: 400px;
+    padding-bottom: 0;
+
+    align-items: center;
+    justify-content: center;
+    position: static;
+    
+}
+
+.top_texto{
+    line-height: 1;
+    position: static;
+    
+}
